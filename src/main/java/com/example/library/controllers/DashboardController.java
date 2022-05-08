@@ -5,13 +5,10 @@ import com.example.library.exceptions.DataException;
 import com.example.library.requests.CreateBookRequest;
 import com.example.library.services.DashboardService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
-import static com.example.library.beans.Constants.ERROR_FIELD_INCORRECT;
 
 @RestController
 @RequestMapping("dashboard")
